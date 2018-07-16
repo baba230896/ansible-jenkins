@@ -10,7 +10,7 @@ Use latest Ansible Version
 
   - ansible-java
   
-(Already Added)
+Download ansible-java role in same folder as which contains ansible-jenkins
 
 ## Role Variables
 
@@ -120,6 +120,7 @@ Changes made to the Jenkins init script; the default set of changes set the conf
 ## Example Playbook
 
 ```yaml
+---
 - hosts: jenkins
   roles:
     - role: ansible-java
